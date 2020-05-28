@@ -14,7 +14,7 @@ pipeline {
             }
             stage('Cloning Git') {
                 steps {
-                    git 'https://github.com/ravi1singh/EcommerceSpringBoot.git'
+                    git 'https://github.com/ravi1singh/SpringBootEcommerce.git'
                         }
             }
             stage('Build') {
