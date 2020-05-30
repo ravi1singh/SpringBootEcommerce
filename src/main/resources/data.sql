@@ -3,11 +3,11 @@ insert into Customer values(1002,'asdaw','Bangalore','India','123141231232','joh
 
 
 
-insert into Product values(101, 'use it to hide', 'url','Bangalore',599.87, 20, 'T-shirt');
-insert into Product values(102, 'use it to hide', 'url','Ranchi',1999.87, 10, 'Jeans');
-insert into Product values(103, 'use it to hide', 'url','Bangalore',599.87, 20, 'Rice');
-insert into Product values(104, 'use it to hide', 'url','Ranchi',1999.87, 10, 'Shoes');
-insert into Product values(105, 'use it to hide', 'url','Bangalore',599.87, 20, 'Cap');
-insert into Product values(106, 'use it to hide', 'url','Bangalore',1999.87, 10, 'Wheat');
+insert into Product values(101, 'use it to hide', 't-shirt.jpeg','Bangalore',599.87, 20, 'T-shirt');
+insert into Product values(102, 'use it to hide', 'jeans.jpeg','Ranchi',1999.87, 10, 'Jeans');
+insert into Product values(103, 'use it to hide', 'rice.jpeg','Bangalore',599.87, 20, 'Rice');
+insert into Product values(104, 'use it to hide', 'shoes.jpeg','Ranchi',1999.87, 10, 'Shoes');
+insert into Product values(105, 'use it to hide', 'cap.jpeg','Bangalore',599.87, 20, 'Cap');
+insert into Product values(106, 'use it to hide', 'wheat.jpeg','Bangalore',1999.87, 10, 'Wheat');
 
 -- (customerId, address,city,country,creditCard,email,mobile,name,password,state,zipCode) 

@@ -1,6 +1,5 @@
 package com.spe.ecommerce.bean;
 
-import java.util.ArrayList;
 
 public class Checkout {
 	
