@@ -16,11 +16,6 @@ import com.spe.ecommerce.bean.Customer;
 import com.spe.ecommerce.bean.Login;
 import com.spe.ecommerce.service.Service;
 
-
-
-
-
-
 @SpringBootTest
 @RunWith(SpringRunner.class)
 class EcommerceApplicationTests {
@@ -44,14 +39,13 @@ class EcommerceApplicationTests {
 		assertTrue(service.addToCart(cart));
 		
 	}
-	
 	 // This one was giving error so i commented it.
 	 @Test
 	void checkoutMethodTest()
 	{
 		Checkout c =new Checkout();
 		
-		
+		//asjbaid
 		c.setCustomerId(1001);
 		c.setCheckoutlist("[102]");
 		assertTrue(service.checkoutMethod(c));
