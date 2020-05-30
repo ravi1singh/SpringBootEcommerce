@@ -1,23 +1,16 @@
 package com.spe.ecommerce;
 
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertNull;
-
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.spe.ecommerce.Dao.Dao;
 import com.spe.ecommerce.bean.AddToCart;
-import com.spe.ecommerce.bean.Checkout;
 import com.spe.ecommerce.bean.Customer;
 import com.spe.ecommerce.bean.Login;
-import com.spe.ecommerce.bean.Product;
 import com.spe.ecommerce.service.Service;
 
 
