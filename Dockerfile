@@ -1,3 +1,4 @@
+FROM ubuntu:18.04
 FROM openjdk:8-jre-slim
 MAINTAINER Ravi Singh
 RUN mkdir /usr/src/myapp
